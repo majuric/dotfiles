@@ -29,7 +29,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+#####################
 " Editor config
+#####################
 :set list
 
 " Set tabs to spaces
@@ -40,3 +42,16 @@ filetype plugin indent on
  set shiftwidth=4
 " On pressing tab, insert 4 spaces
  set expandtab
+
+######################
+" Auto change the directory to the current file I'm working on
+
+autocmd BufEnter * lcd %:p:h 
+######################
+
+
+######################
+ " Key mappings
+######################
+
+map <C-n> :NERDTreeToggle<CR>
