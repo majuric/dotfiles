@@ -42,6 +42,7 @@ filetype plugin indent on
  set shiftwidth=4
 " On pressing tab, insert 4 spaces
  set expandtab
+set number
 
 ######################
 " Auto change the directory to the current file I'm working on
@@ -55,3 +56,10 @@ autocmd BufEnter * lcd %:p:h
 ######################
 
 map <C-n> :NERDTreeToggle<CR>
+
+######################
+" NERDTree
+######################
+" Enable mouse NERDTree
+:set mouse=a
+let g:NERDTreeMouseMode=3
