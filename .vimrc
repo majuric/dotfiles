@@ -27,3 +27,15 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Editor config
+:set list
+
+" Set tabs to spaces
+filetype plugin indent on
+" show existing tab with 4 spaces width
+ set tabstop=4
+" when indenting with '>', use 4 spaces width
+ set shiftwidth=4
+" On pressing tab, insert 4 spaces
+ set expandtab
