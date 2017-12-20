@@ -30,7 +30,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " Editor config
-:set list
 
 " Set tabs to spaces
 filetype plugin indent on
