@@ -1,0 +1,5 @@
+# A requirements file to install ansible roles from ansible galaxy
+# More info https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html
+
+# Set up a user on a remote server easily
+- src: nickjj.user

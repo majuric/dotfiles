@@ -12,6 +12,7 @@ function doIt() {
 		--exclude "first_install.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+		--exclude "requirements.yml" \
 		-avh --no-perms . ~;
 	source ~/.zshrc;
 }
