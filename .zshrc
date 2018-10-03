@@ -94,6 +94,9 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
+alias bci="brew cask install"
+alias bi="brew install"
+
 DEFAULT_USER=mario
 
 export NVM_DIR="$HOME/.nvm"
