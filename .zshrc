@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 alias bci="brew cask install"
 alias bi="brew install"
+alias hcam="hg commit -m"
 
 DEFAULT_USER=mario
 
