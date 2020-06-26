@@ -6,6 +6,10 @@ if [ -d "$HOME/scripts" ] ; then
     export PATH=$PATH:$HOME/scripts
 fi
 
+# NVM Stuff
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/mario/.oh-my-zsh
 
@@ -97,12 +101,10 @@ source $ZSH/oh-my-zsh.sh
 alias bci="brew cask install"
 alias bi="brew install"
 alias hcam="hg commit -m"
+alias fb="firebase"
+alias c="clear"
 
 DEFAULT_USER=mario
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export TERM="xterm-256color"
 
